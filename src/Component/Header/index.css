@@ -1,0 +1,40 @@
+#Header{
+    width: 100vw;
+    height: 64px;
+    background: #40a9ff;
+    display: flex;
+    justify-content: space-between;
+}
+.headerTitle{
+    padding: 8px;
+    font-size: 32px;
+    margin-left: 20px;
+}
+
+a:link {
+    color: #000000;
+    text-decoration: none;
+}
+a:visited {
+    color: #000000;
+    text-decoration: none;
+}
+.githubBtn{
+    padding: 8px;
+    margin-right: 20px;
+    font-size: 32px;
+}
+
+#routes{
+    font-size: 20px;
+    height: 100%;
+    width: 35vw;
+    margin-right: 14%;
+    display: flex;
+    justify-content: space-between;
+}
+ion-icon{
+    float: bottom;
+    padding-top: 2px;
+    font-size: 25px;
+}

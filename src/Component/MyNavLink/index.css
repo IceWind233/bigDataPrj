@@ -1,0 +1,9 @@
+.activated{
+    background-color: #91d5ff;
+    border-bottom: solid 3px #096dd9;
+}
+.navLink{
+    display: flex;
+    align-items: center;
+    padding: 14px;
+}
