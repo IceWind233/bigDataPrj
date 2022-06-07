@@ -1,0 +1,34 @@
+.newsList{
+    display: flex;
+    align-content: space-around;
+    padding: 5px;
+    margin: 15px 20px;
+    width: 360px;
+    height: 222px;
+    border: solid 2px #a2a2a2;
+    border-radius: 7px;
+    animation-name: animeWord;
+    animation-duration: 1s;
+}
+#showRouter{
+    width: 100%;
+}
+#news{
+    padding: 5vh 5vh 5vh;
+    display: flex;
+    align-content: space-around;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.newsDate{
+    padding: 5px;
+    margin: 20px 0;
+    font-size: 17px;
+}
+.newsTitle{
+    padding: 5px;
+    opacity: 1;
+    font-size: 20px;
+}

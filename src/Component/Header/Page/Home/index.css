@@ -1,0 +1,39 @@
+#infer{
+    padding-top: 10vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    animation-name: animeWord;
+    animation-duration: 1s;
+}
+.inf{
+    font-size: 25px;
+    opacity: 100%;
+}
+@keyframes animeWord {
+    0% {opacity: 0%;}
+    25% {opacity: 25%;}
+    50% {opacity: 50%;}
+    100% {opacity: 100%;}
+}
+.aboutImg{
+    height: 430px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+
+}
+
+.image{
+    margin: 5px;
+    border-radius: 25px;
+    width: 50px;
+    animation-name: animeImg;
+    animation-duration: 2s;
+}
+@keyframes animeImg {
+    0% {opacity: 0%;}
+    25% {opacity: 25%;}
+    50% {opacity: 50%;}
+    100% {opacity: 100%;}
+}

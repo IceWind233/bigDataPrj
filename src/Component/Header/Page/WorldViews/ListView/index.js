@@ -125,7 +125,6 @@ function ListView(props) {
         ]
     }
     useEffect(() => {
-
         let myChart = echarts.init(document.getElementById('view1'));
         try {
             let req = async () => {
@@ -146,7 +145,6 @@ function ListView(props) {
                 document.getElementById('latest').innerHTML = headers.date
             }
             req()
-
         } catch(e) {
             console.error(e)
         }

@@ -39,8 +39,8 @@ function Header(props){
                 <span className='headerTitle'>COVID-19 数据统计</span>
                 <span id="routes">
                     <MyNavLink to='/page/home'><HomeOutlined /> Home</MyNavLink>
-                    <MyNavLink to='/page/worldviews'><ion-icon name="compass-outline"></ion-icon> WorldViews</MyNavLink>
-                    <MyNavLink to='/page/chineseviews'><ion-icon name="earth-outline"></ion-icon> ChineseViews</MyNavLink>
+                    <MyNavLink to='/page/worldviews'><ion-icon name="earth-outline"></ion-icon> WorldViews</MyNavLink>
+                    <MyNavLink to='/page/chineseviews'><ion-icon name="compass-outline"></ion-icon>  ChineseViews</MyNavLink>
                     <MyNavLink to='/page/news'><MessageOutlined /> News</MyNavLink>
                 </span>
                 <span className='githubBtn'>
