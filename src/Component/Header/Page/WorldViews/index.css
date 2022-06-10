@@ -1,0 +1,6 @@
+#views{
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}

@@ -1,14 +1,13 @@
 import React, {Component} from 'react';
 
-import Big from './Big'
 import ListView from "./ListView";
 import StaView from "./StaView";
+import './index.css'
 
 class Views extends Component {
     render() {
         return (
-            <div>
-                <Big/>
+            <div id="views">
                 <ListView/>
                 <StaView/>
             </div>

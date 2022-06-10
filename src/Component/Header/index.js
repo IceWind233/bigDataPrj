@@ -44,7 +44,7 @@ function Header(props){
                     <MyNavLink to='/page/news'><MessageOutlined /> News</MyNavLink>
                 </span>
                 <span className='githubBtn'>
-                <a className='ghBtn' href='//github.com/' target='_blank'>
+                <a className='ghBtn' href='//github.com/IceWind233/bigDataPrj' target='_blank'>
                     <span><GithubOutlined/></span>
                 </a>
             </span>

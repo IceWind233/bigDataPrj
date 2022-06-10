@@ -151,13 +151,13 @@ function ListView(props) {
     }, [])
 
     return (
-        <>
+        <div>
             <div id='view1'/>
             <p>Last Update Time:{nbsp}
                  <span id = 'latest'></span>
             </p>
 
-        </>
+        </div>
     );
 }
 

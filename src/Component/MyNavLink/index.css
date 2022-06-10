@@ -7,3 +7,6 @@
     align-items: center;
     padding: 14px;
 }
+.navLink:hover{
+    background-color: #91d5ff;
+}

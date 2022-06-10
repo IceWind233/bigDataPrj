@@ -4,7 +4,6 @@ import axios from "axios";
 import {nanoid} from "nanoid";
 
 import NewsItems from './NewsItems'
-import {observe} from "web-vitals/dist/modules/lib/observe";
 
 const options = {
     method: 'GET',

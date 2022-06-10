@@ -10,6 +10,9 @@
     font-size: 32px;
     margin-left: 20px;
 }
+div a:hover{
+    color: #0050b3;
+}
 
 a:link {
     color: #000000;
