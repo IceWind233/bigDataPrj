@@ -63,7 +63,7 @@ class StaView extends Component {
                 <Input.Group size="default">
                     <Select defaultValue="chn" children='China' className="select" onChange={c => this.setCTRY(c)}>
                         {this.state.data.map(obj => {
-                            return <Option id={nanoid()} value={obj.ThreeLetterSymbol} compact>{obj.Country}</Option>
+                            return <Option key={nanoid()} value={obj.ThreeLetterSymbol} compact>{obj.Country}</Option>
                         })}
                     </Select>
                 </Input.Group>

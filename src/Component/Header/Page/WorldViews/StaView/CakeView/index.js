@@ -947,7 +947,6 @@ export default function CakeView(props){
         let myChart = echarts.init(document.getElementById('view3'))
         axios.request(options).then(
             res=>{
-                console.log(res.data.filter(obj=>obj.ThreeLetterSymbol==props.now))
                 style.series[0].data[0].value= res.data
                     .filter(obj=>obj.ThreeLetterSymbol==props.now)[0]
                     .TotalCases

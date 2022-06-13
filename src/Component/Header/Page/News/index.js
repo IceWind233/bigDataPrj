@@ -31,8 +31,8 @@ export default class News extends Component{
     render(){
         return <div id="news">
             {this.state.data.map(obj=>{
-                return <div>
-                    <NewsItems id={nanoid(10)} link={obj.link} title={obj.title} pubDate={obj.pubDate} newsId={obj.news_id}/>
+                return <div key={nanoid()}>
+                    <NewsItems link={obj.link} title={obj.title} pubDate={obj.pubDate} newsId={obj.news_id}/>
                 </div>
 
             })}
